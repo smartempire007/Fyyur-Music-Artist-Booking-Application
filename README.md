@@ -48,6 +48,7 @@ npm install bootstrap@3
   ├── config.py *** Database URLs, CSRF generation, etc
   ├── error.log
   ├── forms.py *** Your forms
+  ├── model.py *** Your database modeling
   ├──  command.py *** the logic needed for the database population "flask seed_db"
   ├── raw_data.py *** the raw data used to populate our database
   ├── requirements.txt *** The dependencies we need to install with "pip3 install -r requirements.txt"

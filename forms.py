@@ -226,7 +226,7 @@ class ArtistForm(Form):
     )
     facebook_link = StringField(
         # TODO implement enum restriction
-        'facebook_link', validators=[URL(), validators.Regexp('\w+', message="wrong url entered"), ]
+        'facebook_link', validators=[URL()]
     )
 
     website_link = StringField(
